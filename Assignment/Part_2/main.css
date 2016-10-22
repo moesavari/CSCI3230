@@ -1,0 +1,114 @@
+#wrapper {
+  color: white;
+  font-size: 24pt;
+  height: 200px;
+  padding: 20px;
+  background-color: #000070;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  margin-bottom: 3px;
+}
+
+body {
+  background-color: #d7f0f0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#wrapper img {
+  width: 150px;
+  float: left;
+}
+
+#wrapper h1 {
+  float: left;
+  background-color: #000070;
+  padding-left: 10px;
+}
+
+nav ul {
+  list-style: none;
+  list-style-type: none;
+  background-color: #000070;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+  display: block;
+  color: #f0f0ff;
+  text-align: center;
+  padding: 16px;
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+  color: #f0f0ff;
+}
+
+a:visited {
+  color: white;
+}
+
+#rules {
+  background-color: #f0f0e9;
+  border: 3px;
+  border-style: solid;
+  border-color: #000070;
+}
+
+#history {
+  background-color: #f0f0e9;
+  border: 3px;
+  border-style: solid;
+  border-color: #000070;
+}
+
+#overview {
+  background-color: #f0f0e9;
+  border: 3px;
+  border-style: solid;
+  border-color: #000070;
+}
+
+#other {
+  background-color: #f0f0e9;
+  border: 3px;
+  border-style: solid;
+  border-color: #000070;
+}
+
+#comments {
+  background-color: #f0f0e9;
+  border: 3px;
+  border-style: solid;
+  border-color: #000070;
+}
+
+#commentsPost {
+  background-color: #f0f0e9;
+  border: 3px;
+  border-style: solid;
+  border-color: #000070;
+}
+
+.header {
+  color: white;
+  padding-left: 7px;
+  background-color: #000070;
+  padding-top: 1px;
+}
+
+.body {
+  padding: 6px;
+}
+.tableBody table {
+  border: 1px;
+  border-style: solid;
+  border-color: #000070;
+  width: 100%;
+  background-color: #f0f0e9;
+}

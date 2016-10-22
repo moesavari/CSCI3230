@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+  <title>Comments</title>
+  <link rel="stylesheet" href="main.css" type="text/css" />
+  <link rel="logo" type="image/jpg" href="images/CardBack.jpg" alt="logo" />
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <div>
+        <img src="images/CardBack.jpg" />
+      </div>
+      <div>
+        <h1>COMMENTS</h1>
+      </div>
+    </header>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="mainpage.html">MAIN PAGE</a></li>
+      <li><a href="schedules.html">SCHEDULE</a></li>
+    </ul>
+  </nav>
+
+  <br />
+
+  <div id="comments">
+      <div class="header">
+        <h2>Comments:</h2>
+      </div>
+      <div class="body">
+      <p>MTGMVP[18/04/2014]: This game is great! Since I am a long time Magic:The Gathering player as well as a World of Warcraft player, it is almost too easy to play this game!</p>
+
+      <p>NVRLucky[25/09/2015]: I am having a hard time playing this game! It is too confusing and some of the mechanics seems hard to understand! Is there a tutorial that I can go through??</p>
+      </div>
+  </div>
+
+  <br />
+
+  <div id="postComment">
+    <div class="header">
+      <h2>Post Comment</h2>
+    </div>
+    <div class="body">
+      <form action="comments.html" method="POST" id="commentsPost">
+        Date: <input type="date" name="postDate" /><br />
+        Author Name: <input type="text" name="authorName" /><br />
+        Title: <input type="text" name="title" /><br />
+        <textarea rows="4" cols="50"></textarea><br />
+        <input type="submit" value="Submit Post" />
+      </form>
+    </div>
+</body>
