@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Consuming Web Services</title>
+   <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+   <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBMRKcxdm9g6WNdSHhjGieJfktGmivM84"></script>
+
+   <script type="text/javascript" src="asmt2.js"></script>
+   <link rel="stylesheet" href="asmt2.css" />
+
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+ </head>
+ <body>
+  <div id="form">
+   Latitude/longitude:
+   <input type="text" name="lat" id="lat" value="43.944847" />
+   <input type="text" name="lon" id="lon" value="-78.891703" />
+   <button id="goButton">Go</button>
+  </div>
+   <div class="container-fluid">
+   <div id="map-canvas" class="col-sm-6"></div>
+   <div id="weather" class="col-sm-4 col-sm-offset-1">
+            <div id="weatherBox">
+                <h4>Temperature</h4>
+                <div id="currentTemp">Current: N/A</div>
+                <div id="lowTemp">Low: N/A</div>
+                <div id="hightTemp">Hight: N/A</div>
+                <h4>Outlook</h4>
+                <div id="lookout">N/A</div>
+                <h4>Wind</h4>
+                <div id="direction">Direction: N/A</div>
+                <div id="speed">Speed: N/A</div>
+                <h4>Pressure</h4>
+                <div id="pressure">N/A</div>
+                <h4>Humidity</h4>
+                <div id="humidity">N/A</div>
+            </div>
+
+        </div>
+   <div id="forecast" class="col-sm-11"></div>
+   
+   </div>
+ </body>
+</html>
